@@ -78,8 +78,10 @@ export default class PathfindingVisualizer extends Component {
 
     return (
       <>
-     
-        <button onClick={() => this.visualizeDijkstra()}>
+     <div className="heading">
+      <p>Shortest Path Finder</p>
+     </div>
+        <button class="button" onClick={() => this.visualizeDijkstra()}>
           Visualize Dijkstra's Algorithm
         </button>
         <div className="grid">
